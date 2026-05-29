@@ -11,8 +11,7 @@ import urllib.parse
 # ==========================================
 # 1. SETUP DE ALTA PERFORMANCE E CSS
 # ==========================================
-st.set_page_config(page_title="Sincro | Portal Executivo", layout="wide", initial_sidebar_state="expanded")
-
+st.set_page_config(page_title="Sincro | Portal Executivo", page_icon="logo.png", layout="wide", initial_sidebar_state="expanded")
 st.markdown("""
     <style>
     html, body, [class*="css"]  { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0B0E14;}
